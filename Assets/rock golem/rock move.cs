@@ -12,5 +12,6 @@ public class rockmove : MonoBehaviour
         transform.LookAt(player);
         Vector3 newPosition = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
         transform.position = newPosition;
+        transform.Rotate(0f, 90.0f, 0.0f);
     }
 }
