@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3311036898707309145}
   - component: {fileID: 4596852821977491430}
   - component: {fileID: 7398218193578339705}
+  - component: {fileID: 8860225753609444112}
   m_Layer: 0
   m_Name: head 1
   m_TagString: Untagged
@@ -215,6 +216,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 8860225753609444112}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -327,6 +340,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debris: {fileID: 5280446886107749221}
   timeToStart: 30
+--- !u!114 &8860225753609444112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51356082221060267}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85b9b4344ee4da49ad5dd9af421d8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headDisapear: {fileID: 7398218193578339705}
+  head: {fileID: 51356082221060267}
 --- !u!1 &204093371608978748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,6 +2720,7 @@ GameObject:
   - component: {fileID: 7367562884134350886}
   - component: {fileID: 3299460317453759397}
   - component: {fileID: 8953486810162830462}
+  - component: {fileID: 2961197686531178018}
   m_Layer: 0
   m_Name: throw head 1 2 1
   m_TagString: Untagged
@@ -2793,7 +2821,7 @@ MonoBehaviour:
         m_CallState: 2
   insides: {fileID: 656509795562989491}
   outside: {fileID: 9206706028822245421}
-  addscore: {fileID: 0}
+  addscore: {fileID: 2961197686531178018}
 --- !u!65 &7367562884134350886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2855,6 +2883,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+--- !u!114 &2961197686531178018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8497407666551309972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c2db8e02c5f2b48915d4dd10913272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8622997106305363268
 GameObject:
   m_ObjectHideFlags: 0
