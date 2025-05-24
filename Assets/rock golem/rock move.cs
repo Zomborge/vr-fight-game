@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class rockmove : MonoBehaviour
 {
-    public Transform player;
+    private GameObject player;
+    
     [SerializeField]
     float speed = 2.0f;
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
     private void Update()
     {
-        transform.LookAt(player);
-        Vector3 newPosition = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        transform.LookAt(player.transform);
+        Vector3 newPosition = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         transform.position = newPosition;
         transform.Rotate(0f, 90.0f, 0.0f);
     }
