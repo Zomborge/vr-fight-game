@@ -339,6 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 5280446886107749221}
+  size: 34.33459
   timeToStart: 30
 --- !u!114 &8860225753609444112
 MonoBehaviour:
@@ -503,6 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7181725377681513828}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &564914874430286690
 GameObject:
@@ -848,6 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 6567795261909670977}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &873611698857729521
 GameObject:
@@ -1067,6 +1070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7642122785370517563}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &1830382493317556580
 GameObject:
@@ -1217,6 +1221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 6294638010324220990}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &1922964727646056688
 GameObject:
@@ -1367,6 +1372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 2869741354777052873}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &2241634173249504750
 GameObject:
@@ -1615,6 +1621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 370903284348046019}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &3165878960623555568
 GameObject:
@@ -1860,6 +1867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7633156771529659070}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &4672139343762701526
 GameObject:
@@ -2041,6 +2049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 4206719091615590336}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &6474983346203962011
 GameObject:
@@ -2255,6 +2264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 8515651776120146232}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &7963880179507384564
 GameObject:
@@ -2405,6 +2415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 5686907953945915075}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &7993092945141999123
 GameObject:
@@ -2555,6 +2566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7772148762111945641}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &8143889681026187479
 GameObject:
@@ -2705,6 +2717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 704869052766480894}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &8497407666551309972
 GameObject:
@@ -3044,6 +3057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 2374852258272901206}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &8642803990967536837
 GameObject:
@@ -3194,6 +3208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1236462022076692476}
+  size: 34.33459
   timeToStart: 0
 --- !u!1 &8859946938551460502
 GameObject:

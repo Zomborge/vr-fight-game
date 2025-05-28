@@ -6,6 +6,7 @@ TagManager:
   tags:
   - sword
   - floor
+  - jump it
   layers:
   - Default
   - TransparentFX
