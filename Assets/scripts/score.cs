@@ -13,4 +13,8 @@ public class score : MonoBehaviour
         Debug.Log(totalScore);
         combo += 1;
     }
+    public void ComboLoss()
+    {
+        combo = 0;
+    }
 }

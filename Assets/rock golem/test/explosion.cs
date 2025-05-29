@@ -17,6 +17,12 @@ public class explosion : MonoBehaviour
         slashed.Invoke();
         addscore.OnPointGain();
         }
+        if (other.tag == "Player")
+        {
+            Debug.Log("ouch");
+            Destroy(gameObject);
+            addscore.ComboLoss();    
+        }
 
     }
 
