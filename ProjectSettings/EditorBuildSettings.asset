@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/1 Start Scene.unity
+    guid: e4bb43f357ca24849b2249a0f0571c11
+  - enabled: 1
     path: Assets/Scenes/conga line.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
