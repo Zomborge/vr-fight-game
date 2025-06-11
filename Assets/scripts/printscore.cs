@@ -7,10 +7,7 @@ public class printscore : MonoBehaviour
 {
     // Start is called before the first frame update
     public TMP_Text scoreText;
-    private void Start()
-    {
-        scoreText.gameObject.SetActive(false);
-    }
+
     public void ShowFinalScore(float finalScore)
     {
         // Update the text with the final score.
