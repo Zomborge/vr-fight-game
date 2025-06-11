@@ -2908,6 +2908,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67c2db8e02c5f2b48915d4dd10913272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSounds:
+  - {fileID: 8300000, guid: e5d9a0199a20f1c4baa42488073b8ad0, type: 3}
+  - {fileID: 8300000, guid: f0afe95809d0d19468f4645b0123c93f, type: 3}
+  - {fileID: 8300000, guid: 83813f9b74fdc2a4d9333f4b1c0f5b7a, type: 3}
+  - {fileID: 8300000, guid: 51836b88929728640a60b9a4e3902b6e, type: 3}
+  - {fileID: 8300000, guid: 748550d8c7021a045ac2726b2873fd87, type: 3}
 --- !u!1 &8622997106305363268
 GameObject:
   m_ObjectHideFlags: 0

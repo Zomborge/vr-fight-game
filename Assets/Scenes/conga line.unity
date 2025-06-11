@@ -575,7 +575,7 @@ Transform:
   m_GameObject: {fileID: 118792922}
   serializedVersion: 2
   m_LocalRotation: {x: -0.650937, y: 0.2761902, z: -0.27619022, w: 0.65093696}
-  m_LocalPosition: {x: 0.57770085, y: 0.27192873, z: -0.010654539}
+  m_LocalPosition: {x: 2.34, y: 0.27192873, z: 2.18}
   m_LocalScale: {x: 100, y: 100, z: 100.000015}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1730,7 +1730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &412876854
 Transform:
   m_ObjectHideFlags: 0
@@ -1867,11 +1867,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 442595409}
-  - component: {fileID: 442595408}
   - component: {fileID: 442595407}
   - component: {fileID: 442595406}
   - component: {fileID: 442595405}
   - component: {fileID: 442595404}
+  - component: {fileID: 442595410}
   m_Layer: 0
   m_Name: big golem (1)
   m_TagString: Untagged
@@ -1905,12 +1905,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb10bfe05272b9b419681c578ed53330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 442595410}
   spikePrefab: {fileID: 4767322599679348425, guid: 5700169535661ac40be8a1a5b50ff8e6,
     type: 3}
   spikeSpawnPoint: {fileID: 442595409}
   numberOfSpikes: 3
   spikeSpacing: 4
-  delayBeforeSpikeLaunch: 0.5
+  delayBeforeSpikeLaunch: 1.5
   player: {fileID: 0}
 --- !u!54 &442595406
 Rigidbody:
@@ -1960,7 +1961,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2.6630406, z: 2.497879}
   m_Center: {x: 0, y: 0.8315203, z: -0.039346695}
---- !u!95 &442595408
+--- !u!4 &442595409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442595403}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.3321191, z: -0, w: 0.9432375}
+  m_LocalPosition: {x: 5.7, y: 0, z: 2.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 118792923}
+  - {fileID: 974536939}
+  - {fileID: 1232071032}
+  m_Father: {fileID: 1933052521}
+  m_LocalEulerAnglesHint: {x: 0, y: -38.795, z: 0}
+--- !u!95 &442595410
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -1970,7 +1989,7 @@ Animator:
   m_GameObject: {fileID: 442595403}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ecc7e9dd54758d64784cbb51856fb37c, type: 2}
+  m_Controller: {fileID: 9100000, guid: ab1640c1054f41349935407a7a2c020a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1982,24 +2001,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!4 &442595409
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442595403}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.3321191, z: -0, w: 0.9432375}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 118792923}
-  - {fileID: 974536939}
-  - {fileID: 1232071032}
-  m_Father: {fileID: 1933052521}
-  m_LocalEulerAnglesHint: {x: 0, y: -38.795, z: 0}
 --- !u!1 &498914204
 GameObject:
   m_ObjectHideFlags: 0
@@ -8661,7 +8662,7 @@ Transform:
   m_GameObject: {fileID: 6646920636255805572}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.27834705, z: -0, w: 0.96048063}
-  m_LocalPosition: {x: 0.027682304, y: 0, z: -14.346231}
+  m_LocalPosition: {x: 6.74, y: 0, z: -20.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9166,7 +9167,7 @@ Transform:
   m_GameObject: {fileID: 8657220203119282180}
   serializedVersion: 2
   m_LocalRotation: {x: -0.650937, y: 0.2761902, z: -0.27619022, w: 0.65093696}
-  m_LocalPosition: {x: 0.57770085, y: 0.27192873, z: -0.010654539}
+  m_LocalPosition: {x: 4.23, y: 0.27192873, z: 2.3}
   m_LocalScale: {x: 100, y: 100, z: 100.000015}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9815,28 +9816,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2799014653888856974}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &4058176613380408836
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6646920636255805572}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ecc7e9dd54758d64784cbb51856fb37c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &4224669984125414863
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11223,11 +11202,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 250524429361656323}
-  - component: {fileID: 4058176613380408836}
   - component: {fileID: 6493414515703564050}
   - component: {fileID: 8813783730394979451}
   - component: {fileID: 8813783730394979452}
   - component: {fileID: 8813783730394979453}
+  - component: {fileID: 8813783730394979454}
   m_Layer: 0
   m_Name: big golem
   m_TagString: Untagged
@@ -11970,12 +11949,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb10bfe05272b9b419681c578ed53330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 8813783730394979454}
   spikePrefab: {fileID: 4767322599679348425, guid: 5700169535661ac40be8a1a5b50ff8e6,
     type: 3}
   spikeSpawnPoint: {fileID: 250524429361656323}
   numberOfSpikes: 3
   spikeSpacing: 3
-  delayBeforeSpikeLaunch: 0.5
+  delayBeforeSpikeLaunch: 1.5
   player: {fileID: 0}
 --- !u!114 &8813783730394979453
 MonoBehaviour:
@@ -11991,6 +11971,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundSlam: {fileID: 8813783730394979452}
   beatsPerMinute: 30
+--- !u!95 &8813783730394979454
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6646920636255805572}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab1640c1054f41349935407a7a2c020a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &8882688038166414611
 Transform:
   m_ObjectHideFlags: 0

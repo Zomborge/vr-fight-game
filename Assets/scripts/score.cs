@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class score : MonoBehaviour
 {
+    
     static public float totalScore = 0;
     static public float combo = 1;
     static public float life = 10;
@@ -16,8 +18,10 @@ public class score : MonoBehaviour
     }
     public void ComboLoss()
     {
+        
         combo = 0;
         life -= 1;
         Debug.Log(life);
+        
     }
 }
