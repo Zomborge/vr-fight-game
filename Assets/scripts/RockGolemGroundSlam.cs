@@ -3,6 +3,8 @@ using System.Collections;
 
 public class RockGolemGroundSlam : MonoBehaviour
 {
+    public AudioClip[] musicTracks; 
+    private AudioSource audioSource;
     public Animator animator;
     [Header("Spike Settings")]
     [Tooltip("Spike projectile prefab with the SpikeProjectile script attached.")]
@@ -26,7 +28,7 @@ public class RockGolemGroundSlam : MonoBehaviour
 
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
@@ -36,6 +38,7 @@ public class RockGolemGroundSlam : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("GroundSlam");
+            audioSource.Play();
         }
         else
         {

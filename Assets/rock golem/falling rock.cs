@@ -20,6 +20,10 @@ public class fallingrock : MonoBehaviour
                 DisableSpawner();
             }
         }
+        if (collision.gameObject.CompareTag("floor"))
+        {
+            Destroy(gameObject);
+        }
     }
 
     void FallDown()
