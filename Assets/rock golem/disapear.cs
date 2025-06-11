@@ -6,6 +6,7 @@ using UnityEngine;
 public class disapear : MonoBehaviour
 {
     public Rigidbody debris;
+    [SerializeField]
     private float dissapearingSpeed = 2f;
     public float size = 34.33459f;
     public float timeToStart = 5f;

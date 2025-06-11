@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 5976129300708038859}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &777142223279135433
@@ -650,6 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1240922186258912708}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1579731306671994260
@@ -801,6 +803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7194077907210112495}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1598787692737709827
@@ -952,6 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 6712808186826100755}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1682744450065966882
@@ -1103,6 +1107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 8629327879670963084}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1777850570056213472
@@ -1354,6 +1359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 3325847739198093908}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &2787391149218324926
@@ -1505,6 +1511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 6616012879876358942}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &3296488771937950012
@@ -1818,6 +1825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7695403465131306724}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &4260055384493711808
@@ -2001,6 +2009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1263812660565754686}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &4743919237827282512
@@ -2217,6 +2226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 4588174972763892537}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &5463019143683670361
@@ -2368,6 +2378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1785521590611558788}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &5821684899867740285
@@ -2519,6 +2530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 5086670275008119428}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &5929806428551439084
@@ -2597,9 +2609,9 @@ GameObject:
   - component: {fileID: 7806822079372973954}
   - component: {fileID: 6656750938446542837}
   - component: {fileID: 8313682024071231465}
-  - component: {fileID: 2079710822544204936}
   - component: {fileID: 2293500719878137196}
   - component: {fileID: 3223197781161759861}
+  - component: {fileID: 4914861042006989349}
   m_Layer: 0
   m_Name: head 1
   m_TagString: Untagged
@@ -2722,7 +2734,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.04785795, y: 0.049550023, z: 0.047562722}
   m_Center: {x: 0.019127376, y: -0.00748205, z: 0.005776267}
---- !u!114 &2079710822544204936
+--- !u!114 &2293500719878137196
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2731,7 +2743,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 6410404485914912872}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b85482a705e4d14caaa2cec9776ab2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debris: {fileID: 6656750938446542837}
+  dissapearingSpeed: 2
+  size: 34.33459
+  timeToStart: 30
+--- !u!114 &3223197781161759861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6410404485914912872}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85b9b4344ee4da49ad5dd9af421d8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headDisapear: {fileID: 2293500719878137196}
+  head: {fileID: 6410404485914912872}
+--- !u!114 &4914861042006989349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6410404485914912872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7a1b578f437d94f98cc1794b44bf6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -2868,7 +2910,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -2902,7 +2944,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 20
+  m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
@@ -2910,35 +2952,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &2293500719878137196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6410404485914912872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b85482a705e4d14caaa2cec9776ab2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  debris: {fileID: 6656750938446542837}
-  size: 34.33459
-  timeToStart: 30
---- !u!114 &3223197781161759861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6410404485914912872}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d85b9b4344ee4da49ad5dd9af421d8eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headDisapear: {fileID: 2293500719878137196}
-  head: {fileID: 6410404485914912872}
 --- !u!1 &7676495394798815509
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,6 +3133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1539799940347919039}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
 --- !u!1 &8275323432876184958
@@ -3348,5 +3362,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 3468599605037784469}
+  dissapearingSpeed: 2
   size: 34.33459
   timeToStart: 0
