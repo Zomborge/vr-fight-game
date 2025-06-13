@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 5976129300708038859}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &777142223279135433
@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1240922186258912708}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1579731306671994260
@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7194077907210112495}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1598787692737709827
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 6712808186826100755}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1682744450065966882
@@ -1107,7 +1107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 8629327879670963084}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &1777850570056213472
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 3325847739198093908}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &2787391149218324926
@@ -1511,7 +1511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 6616012879876358942}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &3296488771937950012
@@ -1825,7 +1825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 7695403465131306724}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &4260055384493711808
@@ -2009,7 +2009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1263812660565754686}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &4743919237827282512
@@ -2226,7 +2226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 4588174972763892537}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &5463019143683670361
@@ -2243,6 +2243,7 @@ GameObject:
   - component: {fileID: 1785521590611558788}
   - component: {fileID: 1921335186266050315}
   - component: {fileID: 3760368829950839271}
+  - component: {fileID: 8484383511652457619}
   m_Layer: 0
   m_Name: body fixedfbx 5
   m_TagString: Untagged
@@ -2378,9 +2379,197 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1785521590611558788}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
+--- !u!114 &8484383511652457619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5463019143683670361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7a1b578f437d94f98cc1794b44bf6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2293500719878137196}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2293500719878137196}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
+  m_UseDynamicAttach: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
+  m_SnapToColliderVolume: 1
+  m_ReinitializeDynamicAttachEverySingleGrab: 1
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 8
+  m_TightenPosition: 0.1
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 8
+  m_TightenRotation: 0.1
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+  m_StartingSingleGrabTransformers: []
+  m_StartingMultipleGrabTransformers: []
+  m_AddDefaultGrabTransformers: 1
 --- !u!1 &5821684899867740285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,7 +2719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 5086670275008119428}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &5929806428551439084
@@ -2610,7 +2799,6 @@ GameObject:
   - component: {fileID: 6656750938446542837}
   - component: {fileID: 8313682024071231465}
   - component: {fileID: 2293500719878137196}
-  - component: {fileID: 3223197781161759861}
   - component: {fileID: 4914861042006989349}
   m_Layer: 0
   m_Name: head 1
@@ -2747,23 +2935,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 6656750938446542837}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
-  timeToStart: 30
---- !u!114 &3223197781161759861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6410404485914912872}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d85b9b4344ee4da49ad5dd9af421d8eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headDisapear: {fileID: 2293500719878137196}
-  head: {fileID: 6410404485914912872}
+  timeToStart: 0
 --- !u!114 &4914861042006989349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2842,7 +3016,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 3223197781161759861}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -3133,7 +3307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 1539799940347919039}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
 --- !u!1 &8275323432876184958
@@ -3362,6 +3536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debris: {fileID: 3468599605037784469}
-  dissapearingSpeed: 2
+  dissapearingSpeed: 0.5
   size: 34.33459
   timeToStart: 0
